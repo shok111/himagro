@@ -182,24 +182,24 @@ a.logo {
 }
 
 .main {
-  flex-direction: column;
-  margin-top: 10px;
-  min-height: 485px;
+  display: flex;
+  margin-top: 15px;
 }
 
 .main__block {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: start;
+  gap: 11px;
+  margin-left: 15px;
 }
 
 .block__nav {
-  padding: 10px 10px 3px 10px;
   background: #FFFFFF;
   border: 1px solid #BDBDBD;
   border-radius: 4px;
-  margin-bottom: 15px;
+  padding: 10px 10px 0px 10px;
+  margin-bottom: 5px;
 }
 
 .block__img {
@@ -210,17 +210,136 @@ a.logo {
 
 .block__nav span {
   display: block;
-  text-align: center;
-  align-items: center;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
+  line-height: 40px;
   color: #333333;
-  margin-top: 5px;
+  text-align: center;
 }
 
-@media (max-width: 800px) {
-  body {
+.burger {
+  display: none;
+}
+
+@media (max-width: 1199px) {
+  .main__block {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 1184px) {
+  .main__block {
+    margin-left: 0px;
+  }
+  .main__block {
+    justify-content: space-between;
+    gap: 0px;
+  }
+  .block__img {
+    display: flex;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .block__nav {
+    flex-basis: 19%;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1100px) {
+  .block__nav span {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1039px) {
+  .navigate__item a {
+    font-size: 22px;
+  }
+}
+@media (max-width: 949px) {
+  .navigate__item a {
+    font-size: 20px;
+  }
+  .main__block {
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 11px;
+  }
+  .block__nav {
+    display: block;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    flex-basis: 24%;
+  }
+  .block__img {
+    width: 206px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+@media (max-width: 871px) {
+  .burger {
+    display: block;
+    margin-left: 15px;
+  }
+  .catalog {
     display: none;
+  }
+  .main__block {
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 10px;
+  }
+  .block__nav {
+    display: block;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    flex-basis: 19%;
+  }
+  .block__img {
+    display: flex;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .block__nav span {
+    font-size: 16px;
+  }
+}
+@media (max-width: 800px) {
+  .main__block {
+    display: flex;
+    justify-content: start;
+    gap: 8%;
+  }
+  .block__nav {
+    display: flex;
+    margin-bottom: 15px;
+    flex-basis: 28%;
+  }
+  .block__img {
+    display: block;
+    width: 206px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    align-items: center;
+  }
+  .phone {
+    display: none;
+  }
+  .block__nav span {
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
   }
 }/*# sourceMappingURL=style.css.map */
