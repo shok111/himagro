@@ -425,11 +425,51 @@ a.logo {
     }
 }
 @media (max-width: 432px){
+    .block__nav{
+        
+        flex-basis:49%;
+    }
     .main__block{
         display: flex;
-        justify-content:center;
-        gap: 5%;   
+        justify-content:space-between;
+        gap: 1%;   
     }
+    .block__img {
+        display: block;
+        width:fit-content;
+        height: 167px;
+    }
+    .block__nav span{
+        display: flex;
+        font-size: 12px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+    .logones{
+        display: flex;
+        width: 70px;
+    }
+    .logos{
+        display: flex;
+        width: 320px;
+        align-items: center;
+    }
+    .contain__logo {
+        padding: 9px 0px 13px 10px;    
+        display: flex; 
+        height: 80px;
+    }
+    .logos{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    a.logo {
+        display: flex;
+        align-items: center;
+        height: 60px;
+        /**background: url("../img/logo1.png") no-repeat left center;*/
+    } 
 }
 @media (max-width: 300px){
     .block__nav{
