@@ -33,16 +33,12 @@ body {
 }
 
 /* Grid */
-.header {
+.header-row {
   padding-top: 1px;
   padding-bottom: 1px;
-  display: flex;
   background-color: #219653;
   height: 20px;
   align-items: center;
-}
-
-.header-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
