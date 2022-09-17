@@ -33,6 +33,10 @@ body {
 }
 
 /* Grid */
+.header {
+  width: 1235px;
+}
+
 .header-row {
   padding-top: 1px;
   padding-bottom: 1px;
