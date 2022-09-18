@@ -262,7 +262,84 @@ body{
             width: 21vw;
         }
         span{
+            font-size: 2.3vw;
+        }
+    }
+    .navigate__list {
+        a{  
             font-size: 1.95vw;
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .main{
+        width: 100%;
+    }
+    .main-block {
+        margin-right: 25px;
+        justify-content: space-between;
+        gap: unset;
+        row-gap: 1vw;
+    }
+    .block-nav{
+        padding: 0.8vw 0.8vw 20px 0.9vw;
+        img{
+            width: 28vw;
+        }
+        span{
+            font-size: 3vw;
+        }
+    }
+    .navigate__list {
+        a{  
+            font-size: 1.95vw;
+        }
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    .main{
+        width: 100%;
+    }
+    .main-block {
+        margin-right: 25px;
+        justify-content: space-between;
+        gap: unset;
+        row-gap: 1vw;
+    }
+    .block-nav{
+        padding: 0.8vw 0.8vw 20px 0.9vw;
+        img{
+            width: 44vw;
+        }
+        span{
+            font-size: 4vw;
+        }
+    }
+    .navigate__list {
+        a{  
+            font-size: 1.95vw;
+        }
+    }
+}
+@media (min-width: 0px) and (max-width: 320px) {
+    .main{
+        width: 100%;
+    }
+    .main-block {
+        margin-right: 25px;
+        justify-content: center;
+        gap: unset;
+        row-gap: 1vw;
+    }
+    .block-nav{
+        padding: 0.8vw 0.8vw 20px 0.9vw;
+        img{
+            width: 80vw;
+        }
+        span{
+            font-size: 5vw;
         }
     }
     .navigate__list {
