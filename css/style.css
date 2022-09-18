@@ -245,4 +245,27 @@ body {
   .navigate__list a {
     font-size: 1.95vw;
   }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main {
+    width: 100%;
+  }
+  .main-block {
+    margin-right: 25px;
+    justify-content: space-between;
+    gap: unset;
+    row-gap: 1vw;
+  }
+  .block-nav {
+    padding: 0.8vw 0.8vw 20px 0.9vw;
+  }
+  .block-nav img {
+    width: 21vw;
+  }
+  .block-nav span {
+    font-size: 1.95vw;
+  }
+  .navigate__list a {
+    font-size: 1.95vw;
+  }
 }/*# sourceMappingURL=style.css.map */
